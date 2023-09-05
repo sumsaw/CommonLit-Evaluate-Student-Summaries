@@ -1,12 +1,12 @@
 # CommonLit-Evaluate-Student-Summaries
 Kaggle competition to evaluate summaries written by students 
 
-#Context . 
+# Context . 
 
 The competition describe the most common type of ML problem which is regression . But in this case we need to predict two labels namely content and wording. 
 Go given a passage and title written by a student aim is to predict the two given labels . So its a regression problem.
 
-#Model Approach<br> 
+# Model Approach<br> 
 
 I have used Roberta-base model as the embedding model . The weights of this model where kept frozen and Neural network was build on top of it to predict the labels
 
